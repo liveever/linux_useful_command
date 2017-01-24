@@ -1,0 +1,8 @@
+查询依赖：
+yum deplist httpd.x86_64
+
+下载缺少的包：
+yumdownloader --destdir /home/arthur/forinstall/tomcat6 --resolve tomcat.x86_64
+
+下载包，包括全部依赖：
+repotrack --download_path=/home/arthur/forinstall/repo php56w
